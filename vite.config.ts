@@ -5,18 +5,17 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    
-    base: '/sakthi-dental-clinic-/',
+    base: './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '.'),
+        '@': path.resolve(import.meta.dirname, '.'),
       },
     },
     server: {
       
       hmr: process.env.DISABLE_HMR !== 'true',
-     
+      
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
   };
