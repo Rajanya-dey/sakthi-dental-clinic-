@@ -1,0 +1,6 @@
+{
+  "name": "Sakthi Dental Clinic",
+  "description": "Specialized dental care website for Sakthi Dental Clinic in Hosur with appointment booking, full treatment catalog, interactive patient testimonials, and responsive administrative analytics dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
