@@ -1,3 +1,6 @@
+import ananyaIyerImage from '../assets/images/dr_ananya_iyer_1791794816364.jpg';
+import snehaNImage from '../assets/images/dr_sneha_n_1791794838868.jpg';
+
 export interface CourseModule {
   moduleNumber: string;
   title: string;
@@ -136,7 +139,7 @@ export const DOCTOR_COURSES: DoctorCourse[] = [
     directorRole: 'Consultant Orthodontist & Dentofacial Specialist',
     directorDegrees: 'MDS (Orthodontics & Dentofacial Orthopedics)',
     directorDocId: 'doc-5',
-    directorImage: '/src/assets/images/dr_sneha_n_1791794838868.jpg',
+    directorImage: snehaNImage,
     duration: '2-Day Weekend Masterclass',
     format: 'Weekend Intensive + 3D Scans',
     cmeCredits: '16 CDE Credit Points',
@@ -338,7 +341,7 @@ export const DOCTOR_COURSES: DoctorCourse[] = [
     directorRole: 'Consultant Prosthodontist & Aesthetic Specialist',
     directorDegrees: 'MDS (Prosthodontics and Crown & Bridge)',
     directorDocId: 'doc-2',
-    directorImage: '/src/assets/images/dr_ananya_iyer_1791794816364.jpg',
+    directorImage: ananyaIyerImage,
     duration: '3-Day Hands-On & Typodont Lab',
     format: 'Hands-On Lab & Live Cases',
     cmeCredits: '20 CDE Credit Points',

@@ -1,3 +1,12 @@
+import implantAfterImage from '../assets/images/implant_after_1791906064644.jpg';
+import implantBeforeImage from '../assets/images/implant_before_1791906025274.jpg';
+import orthoAfterImage from '../assets/images/ortho_after_1791905891783.jpg';
+import orthoBeforeImage from '../assets/images/ortho_before_1791905875131.jpg';
+import veneersAfterImage from '../assets/images/veneers_after_1791905995097.jpg';
+import veneersBeforeImage from '../assets/images/veneers_before_1791905963438.jpg';
+import whiteningAfterImage from '../assets/images/whitening_after_1791905939142.jpg';
+import whiteningBeforeImage from '../assets/images/whitening_before_1791905910622.jpg';
+
 export interface SmileCase {
   id: string;
   title: string;
@@ -45,8 +54,8 @@ export const SMILE_GALLERY_CASES: SmileCase[] = [
       { label: 'Gum Health Score', value: '+45%', sublabel: 'Plaque retention eliminated' },
       { label: 'Retention Plan', value: 'Vivera Trays', sublabel: 'Zero relapse safeguard' }
     ],
-    beforeImage: '/src/assets/images/ortho_before_1791905875131.jpg',
-    afterImage: '/src/assets/images/ortho_after_1791905891783.jpg',
+    beforeImage: orthoBeforeImage,
+    afterImage: orthoAfterImage,
     beforeLabel: 'Before: Severe Incisor Crowding & Overlap',
     afterLabel: 'After: Symmetrical Arch & Class I Occlusion',
     patientQuote: 'I used to cover my mouth when laughing in office meetings. Within 14 months, Dr. Vikram and Dr. Anupriya gave me a smile I am genuinely proud to show off!',
@@ -72,8 +81,8 @@ export const SMILE_GALLERY_CASES: SmileCase[] = [
       { label: 'Enamel Sensitivity', value: '0 / 10', sublabel: 'Desensitizing fluoride coat' },
       { label: 'Longevity', value: '18-24 Mo', sublabel: 'With good oral hygiene' }
     ],
-    beforeImage: '/src/assets/images/whitening_before_1791905910622.jpg',
-    afterImage: '/src/assets/images/whitening_after_1791905939142.jpg',
+    beforeImage: whiteningBeforeImage,
+    afterImage: whiteningAfterImage,
     beforeLabel: 'Before: Deep Coffee & Tea Yellow Stains (A3.5)',
     afterLabel: 'After: Luminous Radiant Enamel (B1 Pearly White)',
     patientQuote: 'I was amazed that in just one lunch break, my teeth brightened by 8 whole shades without any sensitivity or tingling. Everyone noticed the difference!',
@@ -99,8 +108,8 @@ export const SMILE_GALLERY_CASES: SmileCase[] = [
       { label: 'Porcelain Material', value: 'IPS e.max', sublabel: 'High-strength lithium disilicate' },
       { label: 'Expected Life', value: '15+ Years', sublabel: 'Stain-resistant surface' }
     ],
-    beforeImage: '/src/assets/images/veneers_before_1791905963438.jpg',
-    afterImage: '/src/assets/images/veneers_after_1791905995097.jpg',
+    beforeImage: veneersBeforeImage,
+    afterImage: veneersAfterImage,
     beforeLabel: 'Before: 2.8mm Midline Diastema & Chipped Edges',
     afterLabel: 'After: Flawless E-Max Veneers with Natural Luster',
     patientQuote: 'The team at Sakthi Dental designed veneers that look completely natural, not like fake Hollywood teeth. The gap is gone and my smile looks effortless.',
@@ -126,8 +135,8 @@ export const SMILE_GALLERY_CASES: SmileCase[] = [
       { label: 'Adjacent Teeth', value: '0% Touched', sublabel: 'No grinding like bridges' },
       { label: 'Lifespan', value: 'Lifetime', sublabel: 'With annual checkups' }
     ],
-    beforeImage: '/src/assets/images/implant_before_1791906025274.jpg',
-    afterImage: '/src/assets/images/implant_after_1791906064644.jpg',
+    beforeImage: implantBeforeImage,
+    afterImage: implantAfterImage,
     beforeLabel: 'Before: Missing Upper Premolar Tooth Gap',
     afterLabel: 'After: Full Arch Restored with Zirconia Crown',
     patientQuote: 'I can chew anything now without hesitation. It feels and looks exactly like my real tooth, and no neighbouring teeth had to be damaged.',

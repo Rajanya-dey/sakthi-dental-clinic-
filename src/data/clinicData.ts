@@ -1,4 +1,7 @@
 import { Treatment, Doctor, Amenity, Testimonial, FaqItem } from '../types';
+import ananyaIyerImage from '../assets/images/dr_ananya_iyer_1791794816364.jpg';
+import orthodonticBracesImage from '../assets/images/orthodontic_treatment_braces_1791794802123.jpg';
+import snehaNImage from '../assets/images/dr_sneha_n_1791794838868.jpg';
 
 export const CLINIC_INFO = {
   name: 'Sakthi Dental Clinic',
@@ -148,7 +151,7 @@ export const DOCTORS: Doctor[] = [
     experience: '12+ Years',
     education: 'MDS (Prosthodontics)',
     bio: 'Specialist in full mouth rehabilitation, aesthetic fixed bridges, and functional denture restorations.',
-    imageUrl: '/src/assets/images/dr_ananya_iyer_1791794816364.jpg'
+    imageUrl: ananyaIyerImage
   },
   {
     id: 'doc-3',
@@ -178,7 +181,7 @@ export const DOCTORS: Doctor[] = [
     experience: '10+ Years',
     education: 'MDS (Orthodontics & Dentofacial Orthopedics)',
     bio: 'Expert in pediatric early interceptive braces, adult metal, ceramic, and aesthetic tooth alignment.',
-    imageUrl: '/src/assets/images/dr_sneha_n_1791794838868.jpg'
+    imageUrl: snehaNImage
   },
   {
     id: 'doc-6',
@@ -372,7 +375,7 @@ export const TREATMENTS: Treatment[] = [
     shortDescription: 'Braces to straighten misaligned teeth and optimize bite function.',
     fullDescription: 'Correct misaligned teeth with customized orthodontic treatments at Sakthi Dental Clinic. We offer a variety of braces, metal, ceramic, or lingual, to suit your preferences. Our goal is to achieve improved alignment, better bite function, and a confident, harmonious smile.',
     category: 'Orthodontics',
-    imageUrl: '/src/assets/images/orthodontic_treatment_braces_1791794802123.jpg',
+    imageUrl: orthodonticBracesImage,
     badge: 'Alignment Expert',
     isCore: true,
     features: ['Metal & ceramic options', 'Customized wire archwires', 'Bite and jaw alignment', 'Regular progress reviews']

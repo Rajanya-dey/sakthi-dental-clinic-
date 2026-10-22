@@ -1,3 +1,12 @@
+import bajajAllianzLogo from '../assets/images/bajaj_allianz_logo_1791989351998.jpg';
+import careHealthLogo from '../assets/images/care_health_logo_1791989412484.jpg';
+import hdfcErgoLogo from '../assets/images/hdfc_ergo_logo_1791989269242.jpg';
+import iciciLombardLogo from '../assets/images/icici_lombard_logo_1791989307100.jpg';
+import mediAssistLogo from '../assets/images/medi_assist_logo_1791989537499.jpg';
+import nivaBupaLogo from '../assets/images/niva_bupa_logo_1791989460086.jpg';
+import starHealthLogo from '../assets/images/star_health_logo_1791989225589.jpg';
+import vidalHealthLogo from '../assets/images/vidal_health_logo_1791989592852.jpg';
+
 export interface InsuranceProvider {
   id: string;
   name: string;
@@ -17,7 +26,7 @@ export const ACCEPTED_INSURANCES: InsuranceProvider[] = [
     type: 'Insurer',
     badge: 'Direct Cashless & Reimbursement',
     logoText: 'STAR',
-    logoUrl: '/src/assets/images/star_health_logo_1791989225589.jpg',
+    logoUrl: starHealthLogo,
     cashlessSupport: true,
     reimbursementSpeed: '24-48 Hours',
     coverageTypes: ['Accidental dental trauma', 'Surgical tooth extractions', 'Cyst enucleation', 'Periodontal flap surgeries']
@@ -28,7 +37,7 @@ export const ACCEPTED_INSURANCES: InsuranceProvider[] = [
     type: 'Insurer',
     badge: 'Instant TPA Desk',
     logoText: 'HDFC',
-    logoUrl: '/src/assets/images/hdfc_ergo_logo_1791989269242.jpg',
+    logoUrl: hdfcErgoLogo,
     cashlessSupport: true,
     reimbursementSpeed: '2-3 Business Days',
     coverageTypes: ['Oral surgeries under anesthesia', 'Dental trauma & emergency', 'Inpatient maxillo-facial procedures']
@@ -39,7 +48,7 @@ export const ACCEPTED_INSURANCES: InsuranceProvider[] = [
     type: 'Insurer',
     badge: 'Cashless Preferred',
     logoText: 'ICICI',
-    logoUrl: '/src/assets/images/icici_lombard_logo_1791989307100.jpg',
+    logoUrl: iciciLombardLogo,
     cashlessSupport: true,
     reimbursementSpeed: '48 Hours',
     coverageTypes: ['OPD dental cover policies', 'Accidental dental trauma', 'Oral surgical corrections']
@@ -50,7 +59,7 @@ export const ACCEPTED_INSURANCES: InsuranceProvider[] = [
     type: 'Insurer',
     badge: 'Fast Pre-Auth',
     logoText: 'CARE',
-    logoUrl: '/src/assets/images/care_health_logo_1791989412484.jpg',
+    logoUrl: careHealthLogo,
     cashlessSupport: true,
     reimbursementSpeed: '24 Hours',
     coverageTypes: ['OPD dental riders', 'Emergency extractions & abscess management', 'Hospitalized surgical care']
@@ -61,7 +70,7 @@ export const ACCEPTED_INSURANCES: InsuranceProvider[] = [
     type: 'Insurer',
     badge: 'Cashless & Reimbursement',
     logoText: 'BAJAJ',
-    logoUrl: '/src/assets/images/bajaj_allianz_logo_1791989351998.jpg',
+    logoUrl: bajajAllianzLogo,
     cashlessSupport: true,
     reimbursementSpeed: '48 Hours',
     coverageTypes: ['Accidental maxillofacial repair', 'Daycare surgical procedures', 'Comprehensive dental riders']
@@ -72,7 +81,7 @@ export const ACCEPTED_INSURANCES: InsuranceProvider[] = [
     type: 'Insurer',
     badge: 'Digital Claims',
     logoText: 'NIVA',
-    logoUrl: '/src/assets/images/niva_bupa_logo_1791989460086.jpg',
+    logoUrl: nivaBupaLogo,
     cashlessSupport: true,
     reimbursementSpeed: '3-4 Business Days',
     coverageTypes: ['Dental health riders', 'Accident emergency relief', 'Surgical periodontal treatment']
@@ -83,7 +92,7 @@ export const ACCEPTED_INSURANCES: InsuranceProvider[] = [
     type: 'TPA',
     badge: 'Corporate TPA Desk',
     logoText: 'MEDI',
-    logoUrl: '/src/assets/images/medi_assist_logo_1791989537499.jpg',
+    logoUrl: mediAssistLogo,
     cashlessSupport: true,
     reimbursementSpeed: 'Instant E-Approval',
     coverageTypes: ['TVS, Ashok Leyland & SIPCOT corporate dental allowances', 'OPD reimbursements', 'Daycare surgical']
@@ -94,7 +103,7 @@ export const ACCEPTED_INSURANCES: InsuranceProvider[] = [
     type: 'TPA',
     badge: 'Digital TPA Gateway',
     logoText: 'VIDAL',
-    logoUrl: '/src/assets/images/vidal_health_logo_1791989592852.jpg',
+    logoUrl: vidalHealthLogo,
     cashlessSupport: true,
     reimbursementSpeed: '24-48 Hours',
     coverageTypes: ['Titan, Tata & Infosys employee dental plans', 'Pre-authorized surgical extractions']

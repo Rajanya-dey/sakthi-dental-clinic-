@@ -19,6 +19,8 @@ import {
 } from '../types';
 import { TESTIMONIALS } from '../data/clinicData';
 import { CourseEnrollment } from '../data/coursesData';
+import ananyaIyerImage from '../assets/images/dr_ananya_iyer_1791794816364.jpg';
+import snehaNImage from '../assets/images/dr_sneha_n_1791794838868.jpg';
 
 const STORAGE_KEYS = {
   APPOINTMENTS: 'sdc_appointments_v1',
@@ -1006,7 +1008,7 @@ const DEFAULT_DOCTORS: DoctorAccount[] = [
     registrationNo: 'TN-DC-34819',
     education: 'MDS (Orthodontics & Dentofacial Orthopedics)',
     experience: '10+ Years',
-    imageUrl: '/src/assets/images/dr_sneha_n_1791794838868.jpg',
+    imageUrl: snehaNImage,
     registeredDate: '2024-01-10'
   },
   {
@@ -1032,7 +1034,7 @@ const DEFAULT_DOCTORS: DoctorAccount[] = [
     registrationNo: 'TN-DC-28491',
     education: 'MDS (Prosthodontics)',
     experience: '12+ Years',
-    imageUrl: '/src/assets/images/dr_ananya_iyer_1791794816364.jpg',
+    imageUrl: ananyaIyerImage,
     registeredDate: '2024-02-14'
   },
   {
@@ -1921,5 +1923,4 @@ export const createCourseEnrollment = (
   window.dispatchEvent(new CustomEvent('sdc_course_enrolled', { detail: newEnrollment }));
   return newEnrollment;
 };
-
 
